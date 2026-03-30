@@ -1,3 +1,4 @@
+import Counter from "@/components/customui/Counter";
 import {
   Card,
   CardContent,
@@ -16,9 +17,11 @@ const page = () => {
     <section className="grid h-dvh place-items-center">
       <Card className="w-sm">
         <CardHeader>
-          <CardTitle className="text-center">Counter</CardTitle>
+          <CardTitle className="text-center text-2xl">Counter</CardTitle>
         </CardHeader>
-        <CardContent></CardContent>
+        <CardContent>
+          <Counter />
+        </CardContent>
       </Card>
     </section>
   );
