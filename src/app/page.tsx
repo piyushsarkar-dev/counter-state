@@ -1,3 +1,9 @@
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/shadcnui/card";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -6,7 +12,16 @@ export const metadata: Metadata = {
 };
 
 const page = () => {
-  return <section className="grid h-dvh place-items-center"></section>;
+  return (
+    <section className="grid h-dvh place-items-center">
+      <Card className="w-sm">
+        <CardHeader>
+          <CardTitle className="text-center">Counter</CardTitle>
+        </CardHeader>
+        <CardContent></CardContent>
+      </Card>
+    </section>
+  );
 };
 
 export default page;
