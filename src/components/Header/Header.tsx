@@ -18,6 +18,7 @@ const Header = () => {
         <nav className="flex items-center gap-4">
           <Link href={"/"}>Home</Link>
           <Link href={"/pro"}>Pro</Link>
+          <Link href={"/expert"}>Expert</Link>
           <ThemeToggleButton />
         </nav>
       </div>
