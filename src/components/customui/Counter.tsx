@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { SlidingNumber } from "../customui/sliding-number";
 import { Button } from "../shadcnui/button";
 
 const Counter = () => {
@@ -17,7 +18,7 @@ const Counter = () => {
   return (
     <section>
       <div className="grid grid-cols-1 place-items-center p-10 text-5xl">
-        {count}
+        <SlidingNumber number={count} />
       </div>
       <div className="grid w-full grid-cols-3 gap-1.5 p-2">
         <Button
