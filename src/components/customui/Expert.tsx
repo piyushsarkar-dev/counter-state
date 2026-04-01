@@ -64,7 +64,6 @@ const Expert = () => {
       </div>
       <div className="grid w-full grid-cols-3 gap-1.5 p-2">
         <Button
-          disabled={count > 99}
           onClick={plus}
           className="hover:bg-green-500 hover:text-white">
           +1
@@ -76,13 +75,11 @@ const Expert = () => {
           Reset
         </Button>
         <Button
-          // disabled={count > 99}
           onClick={plusTen}
           className="hover:bg-green-500 hover:text-white">
           +10
         </Button>
         <Button
-          disabled={count < -100}
           onClick={minus}
           className="hover:bg-yellow-500 hover:text-white">
           -1
@@ -94,7 +91,6 @@ const Expert = () => {
           Random
         </Button>
         <Button
-          // disabled={count < -100}
           onClick={minusTen}
           className="hover:bg-yellow-500 hover:text-white">
           -10
