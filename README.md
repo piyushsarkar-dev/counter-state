@@ -31,7 +31,9 @@
 ### 🧩 Basic Counter
 
 <p align="center">
-  <img src="public/counter.png" alt="Basic Counter Preview" width="420" />
+  <a href="public/counter.png">
+    <img src="public/counter.png" alt="Basic Counter Preview" width="900" />
+  </a>
 </p>
 
 > A clean, minimal counter with smooth sliding-number animations, increment, decrement, and reset.
@@ -41,7 +43,9 @@
 ### ⚡ Counter Pro
 
 <p align="center">
-  <img src="public/counter-pro.png" alt="Counter Pro Preview" width="420" />
+  <a href="public/counter-pro.png">
+    <img src="public/counter-pro.png" alt="Counter Pro Preview" width="900" />
+  </a>
 </p>
 
 > An intermediate counter with bulk operations (+10 / -10), random number generation, and boundary-aware disabled states.
@@ -51,7 +55,9 @@
 ### 🧠 Counter Expert
 
 <p align="center">
-  <img src="public/counter-expert.png" alt="Counter Expert Preview" width="420" />
+  <a href="public/counter-expert.png">
+    <img src="public/counter-expert.png" alt="Counter Expert Preview" width="900" />
+  </a>
 </p>
 
 > The most advanced tier: Jotai global state, async animated counting loops, loading states, and toast notifications.
